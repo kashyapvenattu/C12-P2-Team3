@@ -1,0 +1,23 @@
+{
+  "name": "project-wunderlust",
+  "version": "1.0.0",
+  "description": "Team: Iridescent Storm",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd client/react && npm install"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.3.42",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.0",
+    "nodemon": "^3.1.0",
+    "path": "^0.12.7"
+  }
+}

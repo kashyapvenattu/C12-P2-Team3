@@ -1,0 +1,126 @@
+html{
+    margin: 0px; 
+    padding: 0px;
+    height: 100vh; 
+    overflow: hidden;
+    background-color: #83ae86;
+}
+
+/* #root{
+    margin: 0;
+    background-color: #54a152;
+    height: 100%;
+} */
+
+.main{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+input{
+    width: 250px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar-container{
+    padding: 0 10px;
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px rgba(0, 0, 0, .2);
+    width: 100%;
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+
+.logo {
+    flex-grow: 1; /* Make the logo grow to fill available space */
+    text-align: left; /* Align the logo to the left */
+}
+
+.sign-in-up {
+    flex-grow: 1; /* Make the sign-in/sign-up buttons grow to fill available space */
+    text-align: right; /* Align the buttons to the right */
+}
+
+
+
+.user-and-login{
+    display: flex;
+    gap: 5px;
+}
+
+.flex-container{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+.map-container{
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: brown; */
+}
+
+.travel-mode{
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+}
+
+/* .flex-child-4{
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+} */
+
+.modal{
+    position: absolute;
+    z-index: 2;
+    left: 30%;
+    top: 60%;
+    background-color: #f2f2f2;
+    border: 0.1rem solid;
+    padding: 0.5rem;
+}
+
+.modalImgDiv{
+    display: flex;
+    justify-content: end;
+    gap: 5rem;
+}
+
+.modalImg{
+    width: 1rem;
+}
+
+.rankCard{
+    position: absolute;
+    z-index: 2;
+    right: 1rem;
+    top: 10rem;
+    background-color: #f2f2f2;
+    border: 0.1rem solid;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rankCardItem{
+    border: .1rem solid;
+    padding: 1rem;
+}
+
+
+.para{
+    margin: 0px;
+}

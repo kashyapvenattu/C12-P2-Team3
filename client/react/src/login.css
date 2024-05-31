@@ -1,0 +1,87 @@
+/* #root {
+    display:flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    color: black;
+  } */
+/* body{
+    /*background: rgb(128, 218, 128);
+    border-radius: 2px;
+    font-size: 15px;
+}  
+.secondcontianer{
+    background: red;
+    width: 36%;
+    margin-top: 5rem;
+    padding: 0.5rem 3rem;
+    border: 0.16rem solid #bebebe ;
+} */
+/* -------------------------------------------------------------- */
+/* login.css */
+
+/* Styles for the container */
+.secondcontainer {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+/* Styles for the heading */
+.secondcontainer h2 {
+  margin-bottom: 20px;
+  text-align: left; /* Align header text to the left */
+}
+
+/* Styles for the input fields */
+.secondcontainer input[type="text"],
+.secondcontainer input[type="password"] {
+  width: calc(100% - 22px); /* Adjusted width */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Box shadow */
+  box-sizing: border-box; /* Include padding and border in total width */
+}
+
+/* Styles for the login button */
+.secondcontainer button,
+.secondcontainer a {
+  width: calc(100% - 22px); /* Adjusted width */
+  padding: 10px;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  background-color: #83ae86;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Box shadow */
+  box-sizing: border-box; /* Include padding and border in total width */
+}
+
+/* Styles for the sign-up link */
+.secondcontainer a {
+  display: inline-block;
+  text-align: center; /* Center-align text */
+  margin-right: 10px; /* Adjust margin between buttons */
+  text-decoration: none; /* Remove underline */
+  padding: 8px 16px; /* Adjust padding */
+  border: 2px solid #83ae86; /* Green border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fff; /* White background */
+  color: #333; /* Black text color */
+}
+
+.secondcontainer a:last-child {
+  margin-right: 0; /* Remove margin for the last button */
+}
+
+.secondcontainer a:hover {
+  background-color: #83ae86; /* Darken background color on hover */
+  color: #fff; /* Change text color on hover */
+  
+}

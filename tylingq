@@ -1,0 +1,529 @@
+[33mcommit cbbf8112874153da66f4a4ff5ef0acea7f2aa630[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Thu Apr 25 23:40:05 2024 -0600
+
+    update styling
+
+[33mcommit ba830f346e31da34dcd932b869feac83675a8647[m
+Merge: 734e21f bb8884a
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Thu Apr 25 22:37:13 2024 -0600
+
+    Merge branch 'bahram' into demo1
+
+[33mcommit 734e21f6e77e6f695cd6c397617be4b367684537[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Thu Apr 25 22:29:17 2024 -0600
+
+    change <text> to <p> and its css & adding index to rank.map
+
+[33mcommit ce3241c7670341a0721f34b85bcb39642e90dec2[m
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Thu Apr 25 22:08:52 2024 -0600
+
+    resolve login error with 2 res.json
+
+[33mcommit 62c98b1e89ed2ac2de91fb89ef433e2ca45fcd39[m
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Thu Apr 25 19:44:12 2024 -0600
+
+    removing error card
+
+[33mcommit ffa8c78d7307d4dd9b2fdb73fba431e39a16a759[m
+Merge: 9db3ad1 af643d2
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Thu Apr 25 18:56:14 2024 -0600
+
+    Merge branch 'kashyap'
+
+[33mcommit bb8884a26240987e4091416c0f2b421ce1ad0e78[m[33m ([m[1;31morigin/bahram[m[33m, [m[1;32mbahram[m[33m)[m
+Author: BahRA9 <del_dar99@yahoo.com>
+Date:   Thu Apr 25 18:24:11 2024 -0600
+
+    Styling version 1
+
+[33mcommit af643d2cfe6120f4a083d6d7a736c9555a58d73d[m[33m ([m[1;31morigin/kashyap[m[33m, [m[1;32mkashyap[m[33m)[m
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Thu Apr 25 16:53:45 2024 -0600
+
+    ranking cards
+
+[33mcommit 9db3ad1152444d36f03e2fa55e9f2361c2ef558e[m
+Merge: e92fd61 252d330
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Thu Apr 25 13:48:58 2024 -0600
+
+    Merge branch 'anix'
+
+[33mcommit 252d33099b427da2970cbcad0f2e5eff5a514637[m[33m ([m[1;31morigin/anix[m[33m)[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Thu Apr 25 13:48:07 2024 -0600
+
+    changed name of response to be a better fit
+
+[33mcommit 93548b8091c043c64b3d3a72cd81b1d3858a482e[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Thu Apr 25 13:45:28 2024 -0600
+
+    changed likeDislikeRank to display both time in seconds and the display value for that time. Ranking still works!!!
+
+[33mcommit 752d024393b0967b03ac3c5bd740c0a46c552b96[m
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Thu Apr 25 13:13:30 2024 -0600
+
+    modal for contruction warning
+
+[33mcommit e92fd617fbbb4890d22b750ee76e9d4fcda8a8fa[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Wed Apr 24 13:25:24 2024 -0600
+
+    small issue with merging for server, ensured code is now the same across the branches of "anix" and "main"
+
+[33mcommit d47903770535b652b347b7d6e2cdec0abb84c634[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Wed Apr 24 13:16:35 2024 -0600
+
+    solved merge conflict
+
+[33mcommit 635099bc7b9ef2e027a561d7c883b6e5267fe537[m
+Merge: ab93211 b4fda0c
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Wed Apr 24 13:14:11 2024 -0600
+
+    Merge branch 'anix'
+
+[33mcommit b4fda0ceee519ceb3c258db3189b0c2f716270d0[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Wed Apr 24 13:12:34 2024 -0600
+
+    ranking routes is now a response to googleData
+
+[33mcommit ab93211dbd56e5642f64bdc4ff9b8cfdf69f187b[m
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Wed Apr 24 12:20:23 2024 -0600
+
+    Deleted problematic code
+
+[33mcommit b5ab035884400908acab40c05d070d48002e4323[m
+Merge: e46e788 a0ff64d
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Wed Apr 24 12:17:58 2024 -0600
+
+    Merge branch 'main' of https://github.com/EvolveU-FSD/C12-P2-Team3
+
+[33mcommit e46e78844868a5ebd50c378a8b97fe8c54ce66bc[m
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Wed Apr 24 12:17:24 2024 -0600
+
+    Fixed double header sending crashing user login
+
+[33mcommit a0ff64dc3d34ca323476b3772a96e25a2e271ad5[m
+Merge: a9c3455 d2f2edf
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Wed Apr 24 11:45:17 2024 -0600
+
+    Merge branch 'main' of https://github.com/EvolveU-FSD/C12-P2-Team3
+
+[33mcommit a9c3455953d336ac824726cf5b3e6a3e6bea2542[m
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Wed Apr 24 11:42:54 2024 -0600
+
+    marker changes
+
+[33mcommit d2f2edfa52c30a574437b579c95b62eff552a9f4[m
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Wed Apr 24 11:13:45 2024 -0600
+
+    Neutral Green Pallet started for Styling
+
+[33mcommit a431fe27d3924568dab1242df7ecb3543e754aa7[m
+Merge: 0dff994 7d71270
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Wed Apr 24 09:57:34 2024 -0600
+
+    Merge branch 'main' of https://github.com/EvolveU-FSD/C12-P2-Team3
+
+[33mcommit 0dff99420159e8a6187e48b5899e460ff533cf06[m
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Wed Apr 24 09:57:13 2024 -0600
+
+    Styling started
+
+[33mcommit 7a0789b6bea5ace13f50d34f94cc0dfad677d5f3[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Wed Apr 24 09:51:58 2024 -0600
+
+    small change in rank to demo how it works. then, reverted it back
+
+[33mcommit 2bde2fe9e4dd7a8721f17c19bf74a36c2374b013[m
+Merge: a87bc80 7d71270
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Wed Apr 24 08:55:53 2024 -0600
+
+    Merge remote-tracking branch 'origin/main' into anix
+
+[33mcommit a87bc804d6027822a434d339f64ecbf5d6a3c615[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Tue Apr 23 15:18:32 2024 -0600
+
+    removed body parser from sever.js
+
+[33mcommit 7d712701b781ff1ba6f6b78422b615b39d4da131[m
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Tue Apr 23 14:54:25 2024 -0600
+
+    update server file to have response in json [/googleData and add lib: bodyParser]
+
+[33mcommit 9b8756a7bbe06cd7203dcfea95f8ffc49026f2ec[m
+Merge: f50d672 259964b
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Tue Apr 23 14:48:37 2024 -0600
+
+    Merge branch 'main' of https://github.com/EvolveU-FSD/C12-P2-Team3
+
+[33mcommit d4b5bbb382e54b2f78ec6255d5d233b341c330b8[m
+Merge: a06a973 259964b
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Tue Apr 23 14:47:23 2024 -0600
+
+    Merge branch 'main' into anix
+
+[33mcommit a06a973953b09ed7d6026cc06aaab2c8e55bdef9[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Tue Apr 23 14:43:21 2024 -0600
+
+    small changes to server.js
+
+[33mcommit f50d672f92811ef9758b18c26cd20831f7b6d904[m
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Tue Apr 23 14:25:40 2024 -0600
+
+    send map data/respone to server
+
+[33mcommit b8c14c338d9a504fb8cc9ce4a9a044791de301b0[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Tue Apr 23 13:44:57 2024 -0600
+
+    changed file limit size on server
+
+[33mcommit 259964b7fc121d3b21297fd850ec69916f7cc35b[m
+Merge: 9f3b972 3ea0101
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Tue Apr 23 13:37:01 2024 -0600
+
+    Merge branch 'main' of https://github.com/EvolveU-FSD/C12-P2-Team3
+
+[33mcommit 9f3b9723c25c56226f6151962463874e7e28ae4c[m
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Tue Apr 23 13:36:09 2024 -0600
+
+    User Context established
+
+[33mcommit 3ea01014801095cc980fd5024860385c2b8933f6[m
+Merge: 7b7dcb2 2073cd6
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Tue Apr 23 11:39:08 2024 -0600
+
+    Merge branch 'kashyap'
+
+[33mcommit 2073cd6bd56cb4063ad6bd4ac19f731afc8b9735[m
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Tue Apr 23 11:34:10 2024 -0600
+
+    cleanup
+
+[33mcommit 524278a8b38f197ee01a0b498cb0ece249f92151[m
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Tue Apr 23 09:27:35 2024 -0600
+
+    fixed issue on map moving around when selecting marker
+
+[33mcommit 7b7dcb2ee5da7614172d1a2e39a422a361b81939[m
+Merge: 2e07deb f23de86
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Tue Apr 23 09:19:55 2024 -0600
+
+    Merge branch 'anix'
+
+[33mcommit f23de86e6173dc9b2745c87bd279e7640c1a4a32[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Tue Apr 23 09:18:30 2024 -0600
+
+    changed path name for google api post
+
+[33mcommit 8d0250a9b8f121d1512f4d893f0ab5c584f49bd1[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Mon Apr 22 15:08:26 2024 -0600
+
+    added test endpoint for routes in server
+
+[33mcommit 2a9d44ff5389aff62b2a1038b7fc25ea884cde96[m
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Mon Apr 22 14:37:15 2024 -0600
+
+    cleanup
+
+[33mcommit 62ebe72a3257dbb48add864579d122b5349c4189[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Mon Apr 22 14:37:09 2024 -0600
+
+    changed like end point to a post
+
+[33mcommit 2e07debbf5fd6a92aba793855b693cb858af76a0[m
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Mon Apr 22 14:03:19 2024 -0600
+
+    Fixed merge conflicts
+
+[33mcommit 0d122342fba1f657affa90b792596dc986575148[m
+Merge: d3bf54e 83977f1
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Mon Apr 22 13:58:46 2024 -0600
+
+    Merge branch 'main' of https://github.com/EvolveU-FSD/C12-P2-Team3
+
+[33mcommit d3bf54ee7ac23e7229aaab110ce81571e34157ae[m
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Mon Apr 22 13:36:26 2024 -0600
+
+    clean-up
+
+[33mcommit 33ef34bd1114d71cffe23a7ca169b8e98f0692e7[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Mon Apr 22 13:36:25 2024 -0600
+
+    small change to make it work with the rest of the code after marge. added res.json(exists). did not show up for some reason
+
+[33mcommit 954b69e46c3bf972b3760a73a947ec992e32aa37[m
+Merge: 7e75a51 d3deae1
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Mon Apr 22 13:29:29 2024 -0600
+
+    Merge remote-tracking branch 'origin/joe' into anix
+
+[33mcommit 7e75a515c32e8df5709f253d8ea17a209411183e[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Mon Apr 22 13:26:29 2024 -0600
+
+    see you space cowboy
+
+[33mcommit cb0be8f1e97085c0ff55983d20465deacdddc44d[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Mon Apr 22 13:13:19 2024 -0600
+
+    more commented out
+
+[33mcommit 1a4fb30c39d6371926a78559dc1c0f998707d2ce[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Mon Apr 22 13:09:56 2024 -0600
+
+    made server.js "prettier", and commented out useless code on likeDislikeRank.js
+
+[33mcommit 83977f1b95f1b95212d5c7e0aa662774003a9ce9[m
+Merge: d3deae1 f723aa5
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Mon Apr 22 13:01:17 2024 -0600
+
+    Merge branch 'main' of https://github.com/EvolveU-FSD/C12-P2-Team3
+
+[33mcommit d3deae1eb6c11305080649c9d200ccf3a9e7c6f8[m[33m ([m[1;31morigin/joe[m[33m)[m
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Mon Apr 22 12:20:23 2024 -0600
+
+    More cleanup
+
+[33mcommit f723aa5478c085035afc077f5ac88f3e0ddc90b8[m
+Author: BahRA9 <del_dar99@yahoo.com>
+Date:   Mon Apr 22 11:47:37 2024 -0600
+
+    refactor the app.jsx
+
+[33mcommit 4fa1c2ee743370ea5376c52c097ab22ef1214e79[m
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Mon Apr 22 11:16:12 2024 -0600
+
+    Clean up
+
+[33mcommit f11aed2e379f6a50c946a4619e2f7e3c52b942af[m
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Mon Apr 22 10:31:31 2024 -0600
+
+    User is now passed aronud
+
+[33mcommit a36948793aca25049b390d7c1403b84d8ab1c8ce[m
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Mon Apr 22 07:05:41 2024 -0600
+
+    added marker infoWindow & filtered marker set
+
+[33mcommit d78c6f2acc256649ccd029924ad1f1fb530c3be3[m
+Author: BahRA9 <del_dar99@yahoo.com>
+Date:   Sun Apr 21 22:55:52 2024 -0600
+
+    logout functinality, Token, Hash
+
+[33mcommit 7df71bcadcc4ff8a4bf358735361dc096c284134[m
+Author: Kashyap <kashyapvenattu@gmail.com>
+Date:   Sun Apr 21 14:50:46 2024 -0600
+
+    updating app.jsx
+
+[33mcommit 20f6134fe3ea9501322b91e1423e8e792e006652[m
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Fri Apr 19 14:08:00 2024 -0600
+
+    Before I mess everything up
+
+[33mcommit 540f4cd1dfecec4a55a3087db677591f55b1b02f[m
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Fri Apr 19 12:43:01 2024 -0600
+
+    cleaning up integration effects
+
+[33mcommit ca0e82888831f8539d52c3dc75fd089b3027e259[m
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Thu Apr 18 11:59:26 2024 -0600
+
+    Merge and Integration Continued
+
+[33mcommit 35e4cf12020ae13da2f161fdf2e06fe0b404fa5b[m
+Merge: ca31ed3 d2c61f7
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Thu Apr 18 11:49:37 2024 -0600
+
+    Merge branch 'anix' into joe
+
+[33mcommit d2c61f71ff18f3eb9f06401f61ae7c9c20ec0de6[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Thu Apr 18 11:48:20 2024 -0600
+
+    small tweaks for console.log in userData
+
+[33mcommit ca31ed3755485d9b7d98c9952204141f7d3a3b96[m
+Merge: a621664 7da1244
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Thu Apr 18 11:47:30 2024 -0600
+
+    Merge branch 'anix' into joe
+
+[33mcommit 7da12448629321846630f8733ce3629c55ba5907[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Thu Apr 18 11:41:45 2024 -0600
+
+    login and signup now integerated with our server
+
+[33mcommit a621664b0560c45c00c6f6c5a8dfbe92de6937ab[m
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Thu Apr 18 10:51:02 2024 -0600
+
+    Login and Map are atleast existing together now
+
+[33mcommit 7c03f86462e79b206f4002d9f10e59b0aba91cc3[m
+Merge: 8c4ba96 c83d679
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Thu Apr 18 10:49:34 2024 -0600
+
+    Merge branch 'joe' of https://github.com/EvolveU-FSD/C12-P2-Team3 into joe
+
+[33mcommit 8c4ba96e1d392e3f10745097cf0ccfece314ec6d[m
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Thu Apr 18 10:49:17 2024 -0600
+
+    Bahram and Kashyaps parts are atleast together now?
+
+[33mcommit 92f5498ef642e9b8e63fdf43a25dc07359705649[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Thu Apr 18 10:14:22 2024 -0600
+
+    added back barhams code
+
+[33mcommit 349967754d707dddc5c937ac6840e1323e8d0a83[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Thu Apr 18 10:09:57 2024 -0600
+
+    trying to clean repo again
+
+[33mcommit 5ed71b6f67c591d260dd53bb6e8c627dc70d56af[m
+Merge: 1618a42 c5a4229
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Thu Apr 18 10:08:02 2024 -0600
+
+    Merge branch 'anix' of https://github.com/EvolveU-FSD/C12-P2-Team3 into anix
+
+[33mcommit 1618a42b27a743b468f6e62b3d756ab8869b3ed3[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Thu Apr 18 10:07:57 2024 -0600
+
+    small changes
+
+[33mcommit c5a4229d6127406df5da46273a794d7f52a8eb48[m
+Merge: 05f53c4 9402ff6
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Thu Apr 18 10:01:10 2024 -0600
+
+    Merge branch 'anix' of https://github.com/EvolveU-FSD/C12-P2-Team3 into anix
+
+[33mcommit 05f53c41d153ab88d260c0934ca3cb461d42ede2[m
+Merge: b2d62c0 a99b098
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Thu Apr 18 09:57:05 2024 -0600
+
+    Merge remote-tracking branch 'origin/main' into anix
+
+[33mcommit 9402ff6b798e8aa92f8e8087471bf9793e4edd4e[m
+Merge: b2d62c0 a99b098
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Thu Apr 18 09:57:05 2024 -0600
+
+    Merge remote-tracking branch 'origin/main' into anix
+
+[33mcommit b2d62c0e304d68877e2549071bfd3179283904c7[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Thu Apr 18 09:38:32 2024 -0600
+
+    removed react-login, something went very wrong, will try again later
+
+[33mcommit 15cd0c038a0ccc54375bc2d582e921546a210014[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Wed Apr 17 15:08:36 2024 -0600
+
+    small changes
+
+[33mcommit 0610909cff5d443c1f043e422a6fed19d8262bfb[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Wed Apr 17 14:38:54 2024 -0600
+
+    cleaned up repo a bit
+
+[33mcommit c83d67923d214484e7f358bffb0c60c8acf83d23[m
+Merge: 8151162 a99b098
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Wed Apr 17 14:12:29 2024 -0600
+
+    Merge branch 'main' into joe
+
+[33mcommit a99b098a8dca7f1b8a3979ae99236c344f8db1a8[m
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Wed Apr 17 14:08:03 2024 -0600
+
+    Merged branch and updated login to stay on page when failed
+
+[33mcommit 80e17bc8f717d4a7e39fc0b1023908c3710813c8[m
+Merge: e753ceb 2a31e4c
+Author: Joe <ArbeauOblivion@gmail.com>
+Date:   Wed Apr 17 14:07:20 2024 -0600
+
+    Merge branch 'bahram'
+
+[33mcommit 56ef053f4471e53bc9b6c39b6d8a7512c7e6ec46[m
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Wed Apr 17 14:03:57 2024 -0600
+
+    unfinished changes
+
+[33mcommit 221efa3b355873cd3b2644a64b4c2fe82aee107c[m
+Merge: a571625 2a31e4c
+Author: Anikaith Bhardwaj <anikaith198@gmail.com>
+Date:   Wed Apr 17 13:45:32 2024 -0600
+
+    Merge branch 'bahram' into anix
