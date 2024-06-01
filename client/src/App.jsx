@@ -49,7 +49,7 @@ const App = () => {
   //Fetch data from database api
   const getConstructionData = async () => {
     const response = await fetch(
-      import.meta.env.VITE_EXPRESS_SERVER + "/api/construction"
+      "https://c12-p2-team3.onrender.com/api/construction"
     );
     const constructionData = await response.json();
     setConstructionMarkers(constructionData);
@@ -111,7 +111,7 @@ const App = () => {
             renderer.setMap(null);
           });
           const result = await fetch(
-            import.meta.env.VITE_EXPRESS_SERVER + "/api/googleData",
+            "https://c12-p2-team3.onrender.com/api/googleData",
             {
               method: "POST",
               headers: {
