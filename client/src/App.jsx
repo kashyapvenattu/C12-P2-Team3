@@ -48,7 +48,9 @@ const App = () => {
 
   //Fetch data from database api
   const getConstructionData = async () => {
-    const response = await fetch("/api/construction");
+    const response = await fetch(
+      import.meta.env.VITE_EXPRESS_SERVER + "/api/construction"
+    );
     const constructionData = await response.json();
     setConstructionMarkers(constructionData);
   };
@@ -108,14 +110,17 @@ const App = () => {
           directionsRenderers.forEach((renderer) => {
             renderer.setMap(null);
           });
-          const result = await fetch("/api/googleData", {
-            method: "POST",
-            headers: {
-              // 'Accept': 'application/json',
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(response),
-          });
+          const result = await fetch(
+            import.meta.env.VITE_EXPRESS_SERVER + "/api/googleData",
+            {
+              method: "POST",
+              headers: {
+                // 'Accept': 'application/json',
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(response),
+            }
+          );
 
           const resultJson = await result.json();
           const resultJsonArray = resultJson.ranked;
