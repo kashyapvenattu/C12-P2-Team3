@@ -1,11 +1,13 @@
 import express from "express";
 import constructionQuery from "./data/constructionQuery.js";
 import likeDislikeRank from "./algo/likeDislikeRank.js";
+import cors from "cors";
+
 const app = express();
 const prefrences = likeDislikeRank;
 
+app.use(cors());
 app.use(express.json({ limit: "50mb" })); //added file limit to increase file transfer size
-
 app.use(express.json());
 
 app.get("/", function (req, res) {
