@@ -1,7 +1,0 @@
-{
-    "routes": "route_category: String, route_short_name: {type: String, unique: true}, route_long_name: String, create_dt_utc: String, mod_dt_utc: String, globalid: String, multilinestring: Array",
-    "stops": "teleride_number: {type: String, unique: true}, stop_name: String, status: String, create_dt_utc: String, mod_dt_utc: String, globalid: String",
-    "construction": "construction_info: {type: String, unique: true}, description: String, start_dt: String, end_dt: String, longitude: String, latitude: String",
-    "trafficIncidents": "incident_info: {type: String, unique: true}, description: String, start_dt: String, modified_dt: String, quadrant: String, count: String, longitude: String, latitude: String",
-    "snowAndIce": "priority: String"
-}
