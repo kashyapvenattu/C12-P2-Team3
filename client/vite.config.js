@@ -9,6 +9,7 @@ export default defineConfig({
       "/api": {
         target: "https://c12-p2-team3.onrender.com",
         changeOrigin: true,
+        secure: false,
         rewrite: (path) => path.replace(/^\/api/, ""),
       },
     },
